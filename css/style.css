@@ -14,11 +14,19 @@ STRUCTURE STYLES
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .col1 {
     height: 2rem;
     width: 100%;
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.col2 {
+    height: 2rem;
+    width: calc((100% / 12) * 6);
     background-color: blue;
     border: 1px solid white;
 }
