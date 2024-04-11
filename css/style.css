@@ -30,3 +30,51 @@ STRUCTURE STYLES
     background-color: blue;
     border: 1px solid white;
 }
+
+.col3 {
+    height: 2rem;
+    width: calc((100% / 12) * 4);
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.col4 {
+    height: 2rem;
+    width: calc((100% / 12) * 3);
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.col6 {
+    height: 2rem;
+    width: calc((100% / 12) * 2);
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.col12 {
+    height: 2rem;
+    width: calc(100% / 12);
+    background-color: blue;
+    border: 1px solid white;
+}
+
+/******************************
+OFFSETS
+******************************/
+
+/*Left-side offsets*/
+.m-left12 {
+    margin-left: calc(100% / 12);
+}
+.m-left6 {
+    margin-left: calc((100% / 12) * 2);
+}
+
+/*Right-side offsets*/
+.m-right12 {
+    margin-right: calc(100% / 12);
+}
+.m-right6 {
+    margin-left: calc((100% / 12) * 2);
+}
