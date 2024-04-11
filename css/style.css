@@ -85,7 +85,7 @@ OFFSETS
     margin-left: calc((100% / 12) * 1);
 }
 .m-left2 {
-    margin-left: calc((2100% / 12) * 2);
+    margin-left: calc((100% / 12) * 2);
 }
 .m-left3 {
     margin-left: calc((100% / 12) * 3);
