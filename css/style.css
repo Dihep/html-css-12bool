@@ -70,11 +70,29 @@ OFFSETS
 .m-left6 {
     margin-left: calc((100% / 12) * 2);
 }
+.m-left4 {
+    margin-left: calc((100% / 12) * 3);
+}
+.m-left3 {
+    margin-left: calc((100% / 12) * 4);
+}
+.m-left2 {
+    margin-left: calc((100% / 12) * 6);
+}
 
 /*Right-side offsets*/
 .m-right12 {
     margin-right: calc(100% / 12);
 }
 .m-right6 {
-    margin-left: calc((100% / 12) * 2);
+    margin-right: calc((100% / 12) * 2);
+}
+.m-right4 {
+    margin-right: calc((100% / 12) * 3);
+}
+.m-right3 {
+    margin-right: calc((100% / 12) * 4);
+}
+.m-right2 {
+    margin-right: calc((100% / 12) * 6);
 }
