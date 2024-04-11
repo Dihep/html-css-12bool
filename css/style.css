@@ -5,4 +5,20 @@ UNIVERSAL STYLES
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Helvetica;
+}
+
+/******************************
+STRUCTURE STYLES
+******************************/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col1 {
+    height: 2rem;
+    width: 100%;
+    background-color: blue;
+    border: 1px solid white;
 }
